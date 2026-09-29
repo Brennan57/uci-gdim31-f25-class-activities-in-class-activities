@@ -1,7 +1,9 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+1. When the camera is moved off of the cat, it stops following the cat's movement. The cat is still able to move, yet the camera remains static. This is because the camrea is no longer attached to the "Cat" node, meaning the camrea will act indepentantly from whatever the "Cat" node does.
+
+2. [My Week One Game] (https://brennan-r.itch.io/roylo-b-catwalking)
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
