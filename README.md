@@ -6,7 +6,17 @@
 2. [My Week One Game](https://brennan-r.itch.io/roylo-b-catwalking)
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+1. r, g, and b are all floats because they are dealing with numbers with decimals
+
+2. _bounce is an int because it is only counting the amount of times the ball bounces on an object. The amount of times it bounces will always be a whole number. Have you ever heard of a ball "half bouncing"?
+
+3. It told me that I couldn't iterate on the variable because it was a float. Since I am itterating a float, I would need to put "f" at the end of the number, esspecilly if the number has a decimal.
+
+### W3
+
+### W4
+
+### W5
 
 ## Open-Source Assets
 ### W1
