@@ -17,10 +17,9 @@
 We are Table #1
 
 1. 
-
     1. The parameters to GetResponse would be an int for the friendship level and a bool for if the player knows the character's secret. The return type would be a string for the character's responce.
 
-    2. The parameters for SetLightDimness would be an int for the player's sanity level. The type would be a void, so there is no return type.
+    2. The parameters for SetLightDimness would be an int for the player's sanity level. The return type would be a void, meaning that there is no return type.
 
     3. The parameters for DidPlayerHitBeat would be either a float or int (depends on how percise you want the check to be). The return type would be a bool, wether they hit it or not.
 
