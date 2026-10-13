@@ -23,7 +23,9 @@ We are Table #1
 
     3. The parameters for DidPlayerHitBeat would be either a float or int (depends on how percise you want the check to be). The return type would be a bool, wether they hit it or not.
 
-2. 
+2. The metaphor that we thought of to compare componants and classes was to a human and the certain body parts they have. The classes are differnt body parts, and you attach them to a human (the componant) to allow them to fufill a desired task.
+
+3. I think the balls get brighter becasue the code in step nine increaces the a multiplyer that increaces the RGB values. How fast the balls are moving increaces the multiplier since it is using the ball's x and y velocities. 
 
 ### W4
 
