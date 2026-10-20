@@ -28,6 +28,11 @@ We are Table #1
 3. I think the balls get brighter becasue the code in step nine increaces the a multiplyer that increaces the RGB values. How fast the balls are moving increaces the multiplier since it is using the ball's x and y velocities. 
 
 ### W4
+Table #1
+
+1. We came up with the cat and soccer ball having the Rigidbody componant and the goal having the Is Trigger. The cat and ball are the two object that collide with each other, so they need to be able to have physics attached to them in order to move. The goal is still the entire time and the ball would want to phase through it as well. That is why the goal has the Is Trigger.
+
+2. We got really confused when looking at the information for the Play() function. The document had a ton of information, but we were able to understand what the task wanted of us, and just simply called the function from _goalVFX. 
 
 ### W5
 
