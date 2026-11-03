@@ -6,6 +6,7 @@ public class CatW5 : MonoBehaviour
     [SerializeField] private float _moveSpeed = 1.0f;
     [SerializeField] private float _turnSpeed = 1.0f;
     [SerializeField] private Animator _animator;
+    private Vector3 _translation = Vector3.zero;
 
     private string _isWalkingName = "IsWalking";
 
@@ -31,6 +32,16 @@ public class CatW5 : MonoBehaviour
         //          changing that axis?
         //      Should I modify translation with Vector addition, or multiplication,
         //          or both?
+        if(Input.GetKey(KeyCode.W))
+        {
+            Vector3 _translation = Vector3.forward * _moveSpeed * Time.deltaTime;
+            transform.Translate(_translation);
+        }
+        else if(Input.GetKey(KeyCode.S))
+        {
+            Vector3 _translation = Vector3.back * _moveSpeed * Time.deltaTime;
+            transform.Translate(_translation);
+        }
         //
         // STEP 2
         // After Step 1 is working, add more code to make it possible to flip
@@ -50,7 +61,17 @@ public class CatW5 : MonoBehaviour
         // STEP 1 & 2 ---------------------------------------------------------
 
         float rotation = Input.GetAxis("Horizontal") * _turnSpeed * Time.deltaTime;
-        transform.Rotate(0, rotation, 0);
+        
+        
+
+        if (_flipWSControls==true)
+        {
+            transform.Rotate(0, rotation*-1.0f, 0);
+        }
+        else
+        {
+            transform.Rotate(0, rotation, 0);
+        }
 
         if (translation.magnitude != 0.0f || rotation != 0.0f)
         {
