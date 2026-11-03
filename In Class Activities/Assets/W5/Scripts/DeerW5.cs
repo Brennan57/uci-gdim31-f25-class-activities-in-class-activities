@@ -26,7 +26,7 @@ public class DeerW5 : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(target);
+        //Debug.Log(target);
         moveDeer();
     }
 }
