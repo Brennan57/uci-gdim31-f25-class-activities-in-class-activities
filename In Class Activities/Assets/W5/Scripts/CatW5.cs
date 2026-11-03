@@ -34,12 +34,12 @@ public class CatW5 : MonoBehaviour
         //          or both?
         if(Input.GetKey(KeyCode.W))
         {
-            Vector3 _translation = Vector3.forward * _moveSpeed * Time.deltaTime;
+            _translation = Vector3.forward * _moveSpeed * Time.deltaTime;
             transform.Translate(_translation);
         }
         else if(Input.GetKey(KeyCode.S))
         {
-            Vector3 _translation = Vector3.back * _moveSpeed * Time.deltaTime;
+            _translation = Vector3.back * _moveSpeed * Time.deltaTime;
             transform.Translate(_translation);
         }
         //
