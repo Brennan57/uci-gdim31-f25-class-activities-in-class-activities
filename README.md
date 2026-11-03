@@ -36,6 +36,16 @@ Table #1
 
 ### W5
 
+Skipped
+
+### W6
+
+1. It needs a Vector3 variable to transform it's postion. It needs a componant variable for the target of the deer. And maybe an integer value for the speed of the deer.
+
+2. It definatly needs an Update method so the deer can move each frame. We also need a collision method to signal when the deer reaches the target. We should also have a method that we create that actually moves the deer, then one that stops the movement once the deer reaches the target.
+
+3. Update will call each method to move, check, and stop the deer. A movement method moves the deer, and a Collision method stops the movement.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
