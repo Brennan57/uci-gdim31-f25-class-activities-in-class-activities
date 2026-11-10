@@ -46,6 +46,14 @@ Skipped
 
 3. Update will call each method to move, check, and stop the deer. A movement method moves the deer, and a Collision method stops the movement.
 
+## W7
+
+1. An int variable for the speed as well as a Vector2 for the position of the bats and the player so that the bats can chase them.
+
+2. I think the only methods required are the methods to make the bats chase and the method to make the bats stop. We donʻt need an Update, a Start, or a collision method since BatManager should be able run those code using the methods we create.
+
+3. The chase method should set the target and speed for the bats while the stop method sets the speek equal to 0.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
