@@ -48,6 +48,8 @@ Skipped
 
 ## W7
 
+[Resourse Guide](https://docs.google.com/document/d/1_tBpKPam_XOvv1F1GfLHlH7EezarfYFHKBYlpzPdyPM/edit?usp=sharing) 
+
 1. An int variable for the speed as well as a Vector2 for the position of the bats and the player so that the bats can chase them.
 
 2. I think the only methods required are the methods to make the bats chase and the method to make the bats stop. We donʻt need an Update, a Start, or a collision method since BatManager should be able run those code using the methods we create.
